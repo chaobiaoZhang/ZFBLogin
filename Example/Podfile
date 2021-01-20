@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZFBLogin_Example' do
+  pod 'ZFBLogin', :path => '../'
+
+  target 'ZFBLogin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
